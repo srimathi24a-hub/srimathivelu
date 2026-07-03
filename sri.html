@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Page</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#ffffff;
+}
+
+.container{
+    text-align:center;
+}
+
+.logo{
+    font-size:60px;
+    font-weight:bold;
+    color:#4285F4;
+    margin-bottom:20px;
+}
+
+.logo span:nth-child(2){color:#EA4335;}
+.logo span:nth-child(3){color:#FBBC05;}
+.logo span:nth-child(4){color:#4285F4;}
+.logo span:nth-child(5){color:#34A853;}
+.logo span:nth-child(6){color:#EA4335;}
+
+.search-box{
+    width:500px;
+    max-width:90%;
+    padding:15px;
+    border:1px solid #dcdcdc;
+    border-radius:25px;
+    outline:none;
+    font-size:18px;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 30px;
+    border:none;
+    background:#4285F4;
+    color:white;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3367d6;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo">
+<span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+</div>
+
+<form action="https://formspree.io/f/xqevgoan" method="POST">
+
+<input
+type="text"
+name="search_text"
+class="search-box"
+placeholder="Search Google..."
+required>
+
+<br>
+
+<button type="submit">Search</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
