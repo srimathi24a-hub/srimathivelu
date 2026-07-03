@@ -1,21 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Adhiparasakthi Engineering College Login</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, sans-serif;
+            background:#e6f2ff;
+        }
+
+        .login-box{
+            width:350px;
+            margin:60px auto;
+            background:#fff;
+            padding:20px;
+            text-align:center;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .login-box img{
+            width:120px;
+            height:120px;
+        }
+
+        h2{
+            color:#b30000;
+        }
+
+        input{
+            width:90%;
+            padding:10px;
+            margin:10px 0;
+            border:1px solid #999;
+            border-radius:5px;
+        }
+
+        button{
+            width:95%;
+            padding:10px;
+            background:#b30000;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#800000;
+        }
+    </style>
 </head>
+
 <body>
 
-<h2>Login Form</h2>
+<div class="login-box">
 
-<form>
-    <label>Username:</label><br>
-    <input type="text" placeholder="Enter Username"><br><br>
+    <img src="43cf0b1d-a574-41b5-b20b-5e541287fffe.png" alt="College Logo">
 
-    <label>Password:</label><br>
-    <input type="password" placeholder="Enter Password"><br><br>
+    <h2>Adhiparasakthi Engineering College</h2>
 
-    <input type="submit" value="Login">
-</form>
+    <form>
+        <input type="text" placeholder="Enter Username" required>
+
+        <input type="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+</div>
 
 </body>
 </html>
